@@ -13,7 +13,7 @@ int main()
         return 0;
     }
 
-    else if(a + b < c || a + c < b || b +c < a)
+    else if( (a + b) <= c || (a + c) <= b || (b +c) <= a)
     {
         printf("0\n");
         return 0;
